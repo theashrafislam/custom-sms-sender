@@ -13,16 +13,8 @@ const sendHandle = () => {
 
     targetMessages.value = "";
     targetNumber.value = "";
-
-    const xhr = new XMLHttpRequest();
-
-    xhr.open('GET', url, true);
-
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4 && xhr.status === 200) {
-            console.log('SMS sent successfully!');
-        }
-    };
-
-    xhr.send();
+ 
+    setTimeout(function() {
+        window.open(url, 'name', 'height=10, width=10');
+    }, 1000);
 }
