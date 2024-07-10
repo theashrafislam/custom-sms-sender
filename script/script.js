@@ -9,7 +9,7 @@
 //     const messages = targetMessages.value;
 //     // console.log(number, messages)
 
-//     const url = `http://tbbtech.great-site.net/halfcustomsms.php?number=${number}&msg=${messages}`;
+//     
 
 //     targetMessages.value = "";
 //     targetNumber.value = "";
