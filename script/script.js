@@ -28,7 +28,7 @@ const closeModal = () => {
     const messages = targetMessages.value;
     // console.log(number, messages)
 
-    const url = `http://tbbtech.great-site.net/halfcustomsms.php?number=${number}&msg=${messages}`;
+    //here implement main api link. ok thank you!
 
     targetMessages.value = "";
     targetNumber.value = "";
